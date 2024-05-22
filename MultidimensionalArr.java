@@ -25,7 +25,7 @@ public class MultidimensionalArr{
 
                 System.out.print(arr[row][col] + " ");
             }
-        }
-        
+        }        
+
     }
 }
