@@ -14,5 +14,19 @@ public class ArrayList{
         list.add(7);
 
         System.out.println(list);
+
+        //user input and output
+
+        //input
+         for (int i = 0; i < 5; i++) {
+            list.add(sc.nextInt());
+        }
+
+        //output
+        for (int i = 0; i < 5; i++) {
+            System.out.println(list.get(i));
+        }
+
+        System.out.println(list);
     }
 }
